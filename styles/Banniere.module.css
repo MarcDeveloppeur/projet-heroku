@@ -1,0 +1,53 @@
+.Baniere {
+    background-image: url("../public/Images/Antsirabe.jpg");
+    background-repeat: no-repeat;
+    background-size: 99%;
+    width: 97%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 1%;
+    position: relative;
+    z-index: 1;
+  }
+  .TextContainer {
+    background-color: rgba(150, 150, 150, 0.7);
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 2px rgb(107, 221, 4);
+    border-bottom: 4px solid rgb(107, 221, 4);
+  }
+  .title {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    word-spacing: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+  }
+  .underTitle {
+    color: rgb(6, 34, 164);
+    font-size: 1em;
+    font-style: italic;
+  }
+
+  @media all and (max-width:920px){
+      .Baniere{
+          background: transparent;
+          height: 300px;
+      }
+      .TextContainer{
+          margin-top: -40px;
+          width:100%;
+      }
+      .title{
+          font-size: 1.2em;
+      }
+      .underTitle{
+          font-size: 0.8em;
+      }
+  }

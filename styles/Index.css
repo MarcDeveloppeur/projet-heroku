@@ -1,0 +1,19 @@
+.CardLinkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 30px;
+  border-top: 1px solid rgb(107, 221, 4);
+}
+.pageTitle {
+  width: 50%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+  height: 50px;
+  color: rgb(107, 221, 4);
+}

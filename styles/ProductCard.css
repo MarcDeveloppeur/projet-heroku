@@ -1,0 +1,34 @@
+.ProductCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+  height: 350px;
+  box-shadow: 0px 0px 8px rgb(107, 221, 4);
+  margin: 30px;
+  padding: 10px;
+}
+.ProductName {
+  text-align: center;
+  font-size: 1.2em;
+  color: rgb(107, 221, 4);
+  border-top: black 1px solid;
+  padding-top: 10px;
+}
+.ProductPrice {
+  font-size: 1em;
+  color: grey;
+}
+
+@media all and (max-width:920px){
+  .ProductCardContainer{
+    width:50%;
+  }
+}
+
+@media all and (max-width:786px){
+  .ProductCardContainer{
+    width:85%;
+  }
+}

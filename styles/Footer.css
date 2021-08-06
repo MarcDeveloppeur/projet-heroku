@@ -1,0 +1,21 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 221, 4);
+  height: 120px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.FooterDescription p {
+  color: white;
+  margin-top: 20px;
+}
+.FooterDescription {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 0.9em;
+}

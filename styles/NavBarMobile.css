@@ -1,0 +1,39 @@
+.NavMobileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+  max-height: 1000px;
+  background-color: rgb(107, 221, 4);
+  margin-top: 10px;
+}
+.toggleButton {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 7px;
+  width: 100%;
+}
+.MobileMenuItems {
+  width: 90%;
+  height: auto;
+  background-color: rgb(107, 221, 4);
+  display: none;
+  text-align: center;
+  border-top: 1px white solid;
+  margin-top: 10px;
+  z-index: 1;
+}
+.NavMobileItem {
+  margin: 20px;
+  color: white;
+}
+
+@media all and(max-width:920px){
+  .NavMobileContainer{
+    width:100%;
+  }
+}
